@@ -33,21 +33,38 @@ const i18n = (function() {
       return Promise.resolve(translations[lang]);
     }
 
+    // 获取根目录路径（处理 pages/ 子目录的情况）
+    const rootPath = getRootPath();
+
     return Promise.all([
-      fetch(`locales/${lang}/common.json`).then(r => r.json()),
-      fetch(`locales/${lang}/home.json`).then(r => r.json()),
-      fetch(`locales/${lang}/features.json`).then(r => r.json()),
-      fetch(`locales/${lang}/aigc.json`).then(r => r.json()),
-      fetch(`locales/${lang}/community.json`).then(r => r.json()),
-      fetch(`locales/${lang}/pricing.json`).then(r => r.json()),
-      fetch(`locales/${lang}/about.json`).then(r => r.json())
+      fetch(rootPath + `locales/${lang}/common.json`).then(r => r.json()),
+      fetch(rootPath + `locales/${lang}/home.json`).then(r => r.json()),
+      fetch(rootPath + `locales/${lang}/features.json`).then(r => r.json()),
+      fetch(rootPath + `locales/${lang}/aigc.json`).then(r => r.json()),
+      fetch(rootPath + `locales/${lang}/community.json`).then(r => r.json()),
+      fetch(rootPath + `locales/${lang}/pricing.json`).then(r => r.json()),
+      fetch(rootPath + `locales/${lang}/about.json`).then(r => r.json())
     ]).then(([common, home, features, aigc, community, pricing, about]) => {
       translations[lang] = { common, home, features, aigc, community, pricing, about };
+      console.log('Language files loaded for:', lang);
       return translations[lang];
     }).catch(err => {
       console.error('Failed to load language file:', err);
       return translations[currentLang] || {};
     });
+  }
+
+  /**
+   * 获取根目录路径
+   * @returns {string}
+   */
+  function getRootPath() {
+    const path = window.location.pathname;
+    // 如果在 pages/ 目录下，需要返回上一级
+    if (path.includes('/pages/')) {
+      return '../';
+    }
+    return '';
   }
 
   /**
