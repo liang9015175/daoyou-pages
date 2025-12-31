@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Dota2 AI 教练",
+    "subtitle": "你的 Dota2 比赛解说专家",
+    "description": "获取每场比赛的个性化 AI 分析。了解胜负原因，发现最佳出装，通过数据驱动的洞察提升你的天梯分。",
+    "cta1": "开始免费试用",
+    "cta2": "观看演示"
+  },
+  "features": {
+    "title": "提升实力所需的一切",
+    "subtitle": "专为想要上分的 Dota2 玩家设计的综合工具",
+    "matchAnalysis": {
+      "title": "比赛分析",
+      "description": "通过 AI 驱动的洞察，深入分析比赛的方方面面"
+    },
+    "heroGuides": {
+      "title": "英雄指南",
+      "description": "向最优秀的玩家学习，获取精选的英雄出装和策略"
+    },
+    "realTimeTracking": {
+      "title": "实时比赛追踪",
+      "description": "关注好友的比赛，获取实时通知"
+    },
+    "community": {
+      "title": "活跃社区",
+      "description": "分享录像，讨论策略，与志同道合的玩家建立联系"
+    }
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "step1": {
+      "title": "连接 Steam",
+      "description": "绑定你的 Steam 账户开始分析比赛"
+    },
+    "step2": {
+      "title": "AI 分析",
+      "description": "我们的 AI 会在几分钟内分析你的比赛"
+    },
+    "step3": {
+      "title": "获取洞察",
+      "description": "获得可操作的建议以改善你的游戏表现"
+    }
+  },
+  "testimonials": {
+    "title": "全球玩家信赖的选择",
+    "subtitle": "加入数千名通过道友提升的玩家"
+  },
+  "cta": {
+    "title": "准备好攀登天梯了吗？",
+    "subtitle": "立即开始 7 天免费试用，无需信用卡。",
+    "button": "立即开始"
+  }
+}

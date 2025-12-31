@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Simple, transparent pricing for Daoyou - AI Coach for Dota2. Choose the plan that fits your journey.">
+  <title>Pricing - Daoyou - AI Coach for Dota2</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+  <!-- ============================================
+       Header / Navigation
+       ============================================ -->
+  <header class="header">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <span data-i18n="site.title" data-i18n-page="common">Daoyou</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav">
+        <a href="../index.html" class="nav-link" data-i18n="nav.home" data-i18n-page="common">Home</a>
+        <a href="features.html" class="nav-link" data-i18n="nav.features" data-i18n-page="common">Features</a>
+        <a href="aigc.html" class="nav-link" data-i18n="nav.aigc" data-i18n-page="common">AI Analysis</a>
+        <a href="community.html" class="nav-link" data-i18n="nav.community" data-i18n-page="common">Community</a>
+        <a href="pricing.html" class="nav-link active" data-i18n="nav.pricing" data-i18n-page="common">Pricing</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about" data-i18n-page="common">About</a>
+      </nav>
+
+      <!-- Right Side Actions -->
+      <div class="flex items-center gap-sm">
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="../index.html" class="nav-link" data-i18n="nav.home" data-i18n-page="common">Home</a>
+    <a href="features.html" class="nav-link" data-i18n="nav.features" data-i18n-page="common">Features</a>
+    <a href="aigc.html" class="nav-link" data-i18n="nav.aigc" data-i18n-page="common">AI Analysis</a>
+    <a href="community.html" class="nav-link" data-i18n="nav.community" data-i18n-page="common">Community</a>
+    <a href="pricing.html" class="nav-link" data-i18n="nav.pricing" data-i18n-page="common">Pricing</a>
+    <a href="about.html" class="nav-link" data-i18n="nav.about" data-i18n-page="common">About</a>
+  </div>
+
+  <!-- ============================================
+       Hero Section
+       ============================================ -->
+  <section class="section" style="padding-top: 140px; padding-bottom: var(--spacing-2xl);">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag reveal">💎 Pricing</span>
+        <h1 class="reveal animate-delay-100">
+          <span class="text-gradient" data-i18n="hero.title" data-i18n-page="pricing">Simple, Transparent Pricing</span>
+        </h1>
+        <p class="section-subtitle reveal animate-delay-200" data-i18n="hero.subtitle" data-i18n-page="pricing">
+          Choose the plan that fits your journey
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Pricing Cards Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="pricing-grid">
+        <!-- Free Plan -->
+        <div class="pricing-card reveal animate-delay-100">
+          <div class="pricing-header">
+            <h3 class="pricing-name" data-i18n="plans.free.name" data-i18n-page="pricing">Free</h3>
+            <p class="pricing-tagline" data-i18n="plans.free.tagline" data-i18n-page="pricing">Get started with essential features</p>
+            <div class="pricing-price">
+              <span class="pricing-amount" data-i18n="plans.free.price" data-i18n-page="pricing">$0</span>
+              <span class="pricing-period" data-i18n="plans.free.period" data-i18n-page="pricing">forever</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.free.features.0" data-i18n-page="pricing">Basic match statistics</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.free.features.1" data-i18n-page="pricing">Hero & item database</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.free.features.2" data-i18n-page="pricing">Community forum access</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.free.features.3" data-i18n-page="pricing">Daily fortune card</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.free.features.4" data-i18n-page="pricing">5 AI analysis summaries per week (delayed)</span>
+            </li>
+          </ul>
+          <div class="pricing-cta">
+            <a href="#" class="btn btn-secondary" style="width: 100%;" data-i18n="plans.free.cta" data-i18n-page="pricing">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Monthly Plan -->
+        <div class="pricing-card popular reveal animate-delay-200">
+          <span class="pricing-badge">Popular</span>
+          <div class="pricing-header">
+            <h3 class="pricing-name" data-i18n="plans.monthly.name" data-i18n-page="pricing">Monthly</h3>
+            <p class="pricing-tagline" data-i18n="plans.monthly.tagline" data-i18n-page="pricing">Perfect for regular players</p>
+            <div class="pricing-price">
+              <span class="pricing-amount" data-i18n="plans.monthly.price" data-i18n-page="pricing">$1</span>
+              <span class="pricing-period" data-i18n="plans.monthly.period" data-i18n-page="pricing">per month</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.monthly.features.0" data-i18n-page="pricing">Everything in Free</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.monthly.features.1" data-i18n-page="pricing">Instant AI analysis</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.monthly.features.2" data-i18n-page="pricing">Last 20 matches analyzed daily</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.monthly.features.3" data-i18n-page="pricing">Weekly performance reports</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.monthly.features.4" data-i18n-page="pricing">Hero specialization cards</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.monthly.features.5" data-i18n-page="pricing">Pro player comparisons</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.monthly.features.6" data-i18n-page="pricing">Ad-free experience</span>
+            </li>
+          </ul>
+          <div class="pricing-cta">
+            <a href="#" class="btn btn-primary" style="width: 100%;" data-i18n="plans.monthly.cta" data-i18n-page="pricing">Subscribe Monthly</a>
+          </div>
+        </div>
+
+        <!-- Yearly Plan -->
+        <div class="pricing-card reveal animate-delay-300">
+          <span class="pricing-badge" style="background: var(--gradient-secondary);">Best Value</span>
+          <div class="pricing-header">
+            <h3 class="pricing-name" data-i18n="plans.yearly.name" data-i18n-page="pricing">Yearly</h3>
+            <p class="pricing-tagline" data-i18n="plans.yearly.tagline" data-i18n-page="pricing">Best value for dedicated players</p>
+            <div class="pricing-price">
+              <span class="pricing-amount" data-i18n="plans.yearly.price" data-i18n-page="pricing">$10</span>
+              <span class="pricing-period" data-i18n="plans.yearly.period" data-i18n-page="pricing">per year</span>
+            </div>
+            <p style="color: #10b981; font-weight: 600; font-size: 0.875rem;" data-i18n="plans.yearly.savings" data-i18n-page="pricing">Save 17%</p>
+          </div>
+          <ul class="pricing-features">
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.yearly.features.0" data-i18n-page="pricing">Everything in Monthly</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.yearly.features.1" data-i18n-page="pricing">Priority AI processing</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.yearly.features.2" data-i18n-page="pricing">Advanced vision analysis</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.yearly.features.3" data-i18n-page="pricing">Custom report templates</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.yearly.features.4" data-i18n-page="pricing">Exclusive tutorial access</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.yearly.features.5" data-i18n-page="pricing">Early access to new features</span>
+            </li>
+            <li class="pricing-feature">
+              <span class="pricing-feature-icon">
+                <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <span data-i18n="plans.yearly.features.6" data-i18n-page="pricing">Priority support</span>
+            </li>
+          </ul>
+          <div class="pricing-cta">
+            <a href="#" class="btn btn-primary" style="width: 100%;" data-i18n="plans.yearly.cta" data-i18n-page="pricing">Subscribe Yearly</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       For Coaches Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="card-glow card" style="padding: var(--spacing-2xl);">
+        <div class="grid grid-cols-1 grid-cols-md-2 gap-xl items-center">
+          <div class="reveal">
+            <span class="section-tag">For Content Creators</span>
+            <h3 style="margin: var(--spacing-md) 0;" data-i18n="coach.title" data-i18n-page="pricing">For Coaches</h3>
+            <p class="text-muted" style="margin-bottom: var(--spacing-lg);" data-i18n="coach.description" data-i18n-page="pricing">
+              Share your knowledge and earn. Create premium content and set your own prices.
+            </p>
+            <div class="flex items-center gap-md" style="margin-bottom: var(--spacing-lg);">
+              <div style="text-align: center;">
+                <div style="font-size: 2.5rem; font-weight: 800; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">70%</div>
+                <div class="text-muted" style="font-size: 0.875rem;">Your Share</div>
+              </div>
+              <div style="font-size: 2rem; color: var(--color-accent-primary);">📊</div>
+              <div style="text-align: center;">
+                <div style="font-size: 2.5rem; font-weight: 800; color: var(--color-text-muted);">30%</div>
+                <div class="text-muted" style="font-size: 0.875rem;">Platform Fee</div>
+              </div>
+            </div>
+            <ul style="list-style: none; margin-bottom: var(--spacing-lg);">
+              <li style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-sm);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="coach.features.0" data-i18n-page="pricing">Create premium tutorials</span>
+              </li>
+              <li style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-sm);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="coach.features.1" data-i18n-page="pricing">Set your own prices</span>
+              </li>
+              <li style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-sm);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="coach.features.2" data-i18n-page="pricing">Build your follower base</span>
+              </li>
+              <li style="display: flex; align-items: center; gap: var(--spacing-sm);">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span data-i18n="coach.features.3" data-i18n-page="pricing">Analytics dashboard</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary">Apply as Coach</a>
+          </div>
+          <!-- 占位图片: 500x400 - 教练仪表盘预览 -->
+          <div class="reveal animate-delay-200">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 400'%3E%3Crect fill='%231f2937' width='500' height='400' rx='16'/%3E%3Crect fill='%238b5cf6' x='40' y='40' width='420' height='80' rx='8' opacity='0.3'/%3E%3Crect fill='%233b82f6' x='40' y='140' width='130' height='100' rx='8' opacity='0.3'/%3E%3Crect fill='%23ec4899' x='185' y='140' width='130' height='100' rx='8' opacity='0.3'/%3E%3Crect fill='%2306b6d4' x='330' y='140' width='130' height='100' rx='8' opacity='0.3'/%3E%3Ctext x='50%25' y='70%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='20' font-family='system-ui'%3ECoach Dashboard Preview%3C/text%3E%3C/svg%3E"
+                 alt="Coach Dashboard"
+                 style="width: 100%; border-radius: var(--radius-xl);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FAQ Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="faq.title" data-i18n-page="pricing">Frequently Asked Questions</span>
+        </h2>
+      </div>
+
+      <!-- FAQ Items -->
+      <div class="grid grid-cols-1 grid-cols-md-2 gap-lg" style="max-width: 900px; margin: 0 auto;">
+        <!-- FAQ 1 -->
+        <div class="card reveal animate-delay-100">
+          <h4 style="margin-bottom: var(--spacing-sm);" data-i18n="faq.q1.question" data-i18n-page="pricing">
+            What payment methods do you accept?
+          </h4>
+          <p class="text-muted" data-i18n="faq.q1.answer" data-i18n-page="pricing">
+            We accept credit cards, PayPal, and various regional payment methods.
+          </p>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="card reveal animate-delay-150">
+          <h4 style="margin-bottom: var(--spacing-sm);" data-i18n="faq.q2.question" data-i18n-page="pricing">
+            Can I cancel anytime?
+          </h4>
+          <p class="text-muted" data-i18n="faq.q2.answer" data-i18n-page="pricing">
+            Yes, you can cancel your subscription at any time. Your benefits continue until the end of the billing period.
+          </p>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="card reveal animate-delay-200">
+          <h4 style="margin-bottom: var(--spacing-sm);" data-i18n="faq.q3.question" data-i18n-page="pricing">
+            Is there a free trial?
+          </h4>
+          <p class="text-muted" data-i18n="faq.q3.answer" data-i18n-page="pricing">
+            Yes! New users get a 7-day free trial of all premium features.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CTA Section
+       ============================================ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2 class="cta-title">
+          <span class="text-gradient">Start Your Free Trial</span>
+        </h2>
+        <p class="cta-subtitle">
+          7 days of full access. No credit card required.
+        </p>
+        <div class="flex justify-center gap-md flex-wrap">
+          <a href="#" class="btn btn-primary btn-lg">
+            <span>Get Started Now</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Daoyou. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "title": "Join the Daoyou Community",
+    "subtitle": "Connect, Share, and Learn from fellow Dota2 players worldwide"
+  },
+  "forum": {
+    "title": "Community Forum",
+    "description": "Engage in discussions across multiple categories",
+    "general": "General Discussion",
+    "guides": "Guides & Tutorials",
+    "media": "Media & Highlights",
+    "memes": "Memes & Culture"
+  },
+  "ugc": {
+    "title": "User Generated Content",
+    "sharing": {
+      "title": "Share Your Content",
+      "description": "Upload videos, clips, and screenshots. Share your best moments and funny fails."
+    },
+    "mentoring": {
+      "title": "Coaching & Tutorials",
+      "description": "Learn from experienced coaches or become a coach yourself. Create and share premium content."
+    },
+    "workshop": {
+      "title": "Creative Workshop",
+      "description": "Share your custom creations, artwork, and Dota2 wallpapers"
+    }
+  },
+  "coaches": {
+    "title": "Featured Coaches",
+    "description": "Learn from the best players in the community",
+    "tutorials": "Video Tutorials",
+    "articles": "Written Guides",
+    "premium": "Premium Content",
+    "preview": "Free Preview Available"
+  },
+  "engagement": {
+    "title": "Gamified Engagement",
+    "daily": {
+      "title": "Daily Check-ins",
+      "description": "Earn points by checking in daily"
+    },
+    "quiz": {
+      "title": "Trivia Quizzes",
+      "description": "Test your Dota2 knowledge and win rewards"
+    },
+    "tasks": {
+      "title": "Daily Tasks",
+      "description": "Complete tasks to earn points and unlock premium features"
+    },
+    "betting": {
+      "title": "Match Prediction",
+      "description": "Predict match outcomes and compete with friends"
+    }
+  },
+  "discord": {
+    "title": "Discord Integration",
+    "description": "Connect your account with Discord for real-time notifications and match reports"
+  },
+  "social": {
+    "title": "Social Sharing",
+    "description": "Share your highlights and analysis cards to Reddit, Twitter, and more"
+  }
+}

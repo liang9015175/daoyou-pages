@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Dota2 玩家的强大功能",
+    "subtitle": "分析、提升、主宰比赛所需的一切"
+  },
+  "core": {
+    "title": "核心功能",
+    "matchStats": {
+      "title": "战绩查询",
+      "description": "全面的比赛数据，包含详细的事件时间线、经济曲线、经验图表和英雄位置追踪。"
+    },
+    "heroDatabase": {
+      "title": "英雄资料",
+      "description": "完整的英雄信息，包括技能、天赋、克制关系、协同配合以及最佳出装。"
+    },
+    "itemDatabase": {
+      "title": "装备资料",
+      "description": "详细的装备信息，附带出装指南、升级路径和场景化推荐。"
+    },
+    "playerSearch": {
+      "title": "玩家与比赛查询",
+      "description": "搜索任何玩家或比赛 ID，查看详细统计数据、比赛历史和表现分析。"
+    }
+  },
+  "advanced": {
+    "title": "高级功能",
+    "friendSystem": {
+      "title": "好友系统",
+      "description": "关注好友，追踪他们的比赛，当他们开始游戏或完成比赛时获取通知。"
+    },
+    "tournaments": {
+      "title": "赛事活动",
+      "description": "通过推送通知了解最新赛事、比赛日程和结果。"
+    },
+    "news": {
+      "title": "新闻与讨论",
+      "description": "精选 Dota2 新闻，附带社区讨论、评论和互动数据。"
+    }
+  },
+  "cards": {
+    "title": "智能卡片流",
+    "description": "每天获取个性化的卡片式推荐",
+    "personalCard": "个人近期表现卡",
+    "heroHighlights": "近期英雄高光卡",
+    "aiAnalysis": "AI 比赛分析卡",
+    "heroData": "英雄数据卡",
+    "friendPerformance": "好友表现卡",
+    "proLeaderboard": "高手天梯榜卡",
+    "news": "新闻卡",
+    "patchNotes": "补丁更新卡",
+    "tarot": "每日运势卡",
+    "deals": "Steam 特价提醒"
+  }
+}

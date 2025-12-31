@@ -1,0 +1,45 @@
+{
+  "site": {
+    "title": "道友 - Dota2 AI 教练",
+    "tagline": "你的 Dota2 比赛解说专家",
+    "description": "自动生成 Dota2 比赛故事与深度洞察"
+  },
+  "nav": {
+    "home": "首页",
+    "features": "功能",
+    "aigc": "AI 分析",
+    "community": "社区",
+    "pricing": "定价",
+    "about": "关于"
+  },
+  "hero": {
+    "title": "Dota2 AI 教练",
+    "subtitle": "你的 Dota2 比赛解说专家",
+    "description": "通过 AI 驱动的比赛分析、个性化指导和可操作的洞察，释放你的全部潜力。",
+    "cta": {
+      "primary": "免费开始",
+      "secondary": "观看演示"
+    }
+  },
+  "footer": {
+    "tagline": "你的 Dota2 大师之旅从这里开始",
+    "links": {
+      "product": "产品",
+      "company": "公司",
+      "legal": "法律",
+      "connect": "联系"
+    },
+    "copyright": "© 2024 道友. 保留所有权利.",
+    "rights": "保留所有权利"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "comingSoon": "即将推出",
+    "freeTrial": "7天免费试用",
+    "subscribe": "订阅",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}

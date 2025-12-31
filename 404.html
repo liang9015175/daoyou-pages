@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | Daoyou</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- 404 页面额外样式 -->
+  <style>
+    body {
+      background: var(--color-bg-primary);
+    }
+
+    .error-page-bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .error-particles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .error-particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: var(--color-accent-primary);
+      border-radius: 50%;
+      opacity: 0.5;
+      animation: float 10s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) translateX(0);
+        opacity: 0.5;
+      }
+      50% {
+        transform: translateY(-100px) translateX(50px);
+        opacity: 0.2;
+      }
+    }
+
+    .glitch {
+      position: relative;
+      animation: glitch 3s infinite;
+    }
+
+    @keyframes glitch {
+      0%, 90%, 100% {
+        transform: translate(0);
+        text-shadow: none;
+      }
+      92% {
+        transform: translate(-5px, 2px);
+        text-shadow: 3px 0 #ec4899, -3px 0 #06b6d4;
+      }
+      94% {
+        transform: translate(5px, -2px);
+        text-shadow: -3px 0 #ec4899, 3px 0 #06b6d4;
+      }
+      96% {
+        transform: translate(-3px, 1px);
+        text-shadow: 2px 0 #ec4899, -2px 0 #06b6d4;
+      }
+      98% {
+        transform: translate(3px, -1px);
+        text-shadow: -2px 0 #ec4899, 2px 0 #06b6d4;
+      }
+    }
+
+    .floating-icon {
+      position: absolute;
+      font-size: 3rem;
+      opacity: 0.3;
+      animation: bob 3s ease-in-out infinite;
+    }
+
+    @keyframes bob {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-20px) rotate(10deg); }
+    }
+
+    .search-box {
+      max-width: 400px;
+      margin: 0 auto 2rem;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 1rem 3rem 1rem 1.5rem;
+      background: var(--color-bg-tertiary);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-full);
+      color: var(--color-text-primary);
+      font-size: 1rem;
+      transition: all var(--transition-base);
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--color-accent-primary);
+      box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2);
+    }
+
+    .search-icon {
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--color-text-muted);
+    }
+
+    .suggested-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .suggested-link {
+      padding: 0.5rem 1rem;
+      background: var(--color-bg-tertiary);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: all var(--transition-fast);
+    }
+
+    .suggested-link:hover {
+      border-color: var(--color-accent-primary);
+      color: var(--color-accent-primary);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <!-- 背景粒子效果 -->
+  <div class="error-page-bg">
+    <div class="error-particles" id="error-particles"></div>
+  </div>
+
+  <!-- 浮动图标 -->
+  <div class="floating-icon" style="top: 10%; left: 5%; animation-delay: 0s;">🎮</div>
+  <div class="floating-icon" style="top: 20%; right: 10%; animation-delay: 0.5s;">⚔️</div>
+  <div class="floating-icon" style="bottom: 20%; left: 10%; animation-delay: 1s;">🛡️</div>
+  <div class="floating-icon" style="bottom: 10%; right: 5%; animation-delay: 1.5s;">💎</div>
+  <div class="floating-icon" style="top: 50%; left: 3%; animation-delay: 2s;">🏆</div>
+  <div class="floating-icon" style="top: 40%; right: 3%; animation-delay: 2.5s;">🔮</div>
+
+  <!-- 主内容 -->
+  <div class="error-page">
+    <div style="position: relative; z-index: 1;">
+      <!-- 错误代码 -->
+      <div class="error-code glitch" data-code="404">404</div>
+
+      <!-- 标题 -->
+      <h1 class="error-title">
+        <span class="text-gradient">Page Not Found</span>
+      </h1>
+
+      <!-- 描述 -->
+      <p class="error-description">
+        Looks like this page went into the fog of war.<br>
+        The page you're looking for doesn't exist or has been moved.
+      </p>
+
+      <!-- 搜索框 -->
+      <div class="search-box">
+        <input type="text" class="search-input" placeholder="Search for something..." id="search-input">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+      </div>
+
+      <!-- 操作按钮 -->
+      <div class="error-actions">
+        <a href="index.html" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+          <span>Go Home</span>
+        </a>
+        <a href="javascript:history.back()" class="btn btn-secondary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+          <span>Go Back</span>
+        </a>
+      </div>
+
+      <!-- 建议链接 -->
+      <div class="suggested-links">
+        <a href="pages/features.html" class="suggested-link">Features</a>
+        <a href="pages/aigc.html" class="suggested-link">AI Analysis</a>
+        <a href="pages/community.html" class="suggested-link">Community</a>
+        <a href="pages/pricing.html" class="suggested-link">Pricing</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 粒子生成脚本 -->
+  <script>
+    // 生成背景粒子
+    const particlesContainer = document.getElementById('error-particles');
+    for (let i = 0; i < 30; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'error-particle';
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.top = Math.random() * 100 + '%';
+      particle.style.animationDelay = Math.random() * 10 + 's';
+      particle.style.animationDuration = (10 + Math.random() * 10) + 's';
+      particlesContainer.appendChild(particle);
+    }
+
+    // 搜索框功能 - 搜索后跳转到 Google
+    document.getElementById('search-input').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        const query = this.value.trim();
+        if (query) {
+          window.location.href = 'https://www.google.com/search?q=site:daoyou.com+' + encodeURIComponent(query);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

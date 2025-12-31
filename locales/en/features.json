@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Powerful Features for Dota2 Players",
+    "subtitle": "Everything you need to analyze, improve, and dominate your matches"
+  },
+  "core": {
+    "title": "Core Features",
+    "matchStats": {
+      "title": "Match Statistics",
+      "description": "Comprehensive match data with detailed event timelines, gold graphs, XP charts, and hero positioning throughout the game."
+    },
+    "heroDatabase": {
+      "title": "Hero Database",
+      "description": "Complete hero information including abilities, talents, counters, synergies, and optimal builds for every hero."
+    },
+    "itemDatabase": {
+      "title": "Item Database",
+      "description": "Detailed item information with build guides, upgrade paths, and situational recommendations."
+    },
+    "playerSearch": {
+      "title": "Player & Match Search",
+      "description": "Search any player or match ID to view detailed statistics, match history, and performance analysis."
+    }
+  },
+  "advanced": {
+    "title": "Advanced Features",
+    "friendSystem": {
+      "title": "Friend System",
+      "description": "Follow friends, track their matches, and get notified when they start playing or complete games."
+    },
+    "tournaments": {
+      "title": "Tournament Events",
+      "description": "Stay updated with ongoing tournaments, match schedules, and results with push notifications."
+    },
+    "news": {
+      "title": "News & Discussions",
+      "description": "Curated Dota2 news with community discussions, comments, and engagement metrics."
+    }
+  },
+  "cards": {
+    "title": "Insight Cards Feed",
+    "description": "Get personalized card-based recommendations delivered daily",
+    "personalCard": "Personal Performance Card",
+    "heroHighlights": "Recent Hero Highlights",
+    "aiAnalysis": "AI Match Analysis",
+    "heroData": "Hero Data Cards",
+    "friendPerformance": "Friend Performance Cards",
+    "proLeaderboard": "Pro Player Leaderboard",
+    "news": "News Cards",
+    "patchNotes": "Patch Update Cards",
+    "tarot": "Daily Fortune Card",
+    "deals": "Steam Deal Alerts"
+  }
+}

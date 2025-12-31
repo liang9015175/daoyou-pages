@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the Daoyou community - Share replays, discuss strategies, and connect with fellow Dota2 players.">
+  <title>Community - Daoyou - AI Coach for Dota2</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+  <!-- ============================================
+       Header / Navigation
+       ============================================ -->
+  <header class="header">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <span data-i18n="site.title" data-i18n-page="common">Daoyou</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav">
+        <a href="../index.html" class="nav-link" data-i18n="nav.home" data-i18n-page="common">Home</a>
+        <a href="features.html" class="nav-link" data-i18n="nav.features" data-i18n-page="common">Features</a>
+        <a href="aigc.html" class="nav-link" data-i18n="nav.aigc" data-i18n-page="common">AI Analysis</a>
+        <a href="community.html" class="nav-link active" data-i18n="nav.community" data-i18n-page="common">Community</a>
+        <a href="pricing.html" class="nav-link" data-i18n="nav.pricing" data-i18n-page="common">Pricing</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about" data-i18n-page="common">About</a>
+      </nav>
+
+      <!-- Right Side Actions -->
+      <div class="flex items-center gap-sm">
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="../index.html" class="nav-link" data-i18n="nav.home" data-i18n-page="common">Home</a>
+    <a href="features.html" class="nav-link" data-i18n="nav.features" data-i18n-page="common">Features</a>
+    <a href="aigc.html" class="nav-link" data-i18n="nav.aigc" data-i18n-page="common">AI Analysis</a>
+    <a href="community.html" class="nav-link" data-i18n="nav.community" data-i18n-page="common">Community</a>
+    <a href="pricing.html" class="nav-link" data-i18n="nav.pricing" data-i18n-page="common">Pricing</a>
+    <a href="about.html" class="nav-link" data-i18n="nav.about" data-i18n-page="common">About</a>
+  </div>
+
+  <!-- ============================================
+       Hero Section
+       ============================================ -->
+  <section class="section" style="padding-top: 140px; padding-bottom: var(--spacing-2xl);">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag reveal">👥 Community</span>
+        <h1 class="reveal animate-delay-100">
+          <span class="text-gradient" data-i18n="hero.title" data-i18n-page="community">Join the Daoyou Community</span>
+        </h1>
+        <p class="section-subtitle reveal animate-delay-200" data-i18n="hero.subtitle" data-i18n-page="community">
+          Connect, Share, and Learn from fellow Dota2 players worldwide
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Forum Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="forum.title" data-i18n-page="community">Community Forum</span>
+        </h2>
+        <p class="section-subtitle" data-i18n="forum.description" data-i18n-page="community">
+          Engage in discussions across multiple categories
+        </p>
+      </div>
+
+      <!-- Forum Categories -->
+      <div class="grid grid-cols-1 grid-cols-md-2 gap-lg">
+        <!-- General Discussion -->
+        <div class="card-glow card reveal animate-delay-100">
+          <div class="flex items-start gap-md">
+            <div class="badge badge-primary" style="font-size: 1.5rem;">💬</div>
+            <div>
+              <h4 class="card-title" data-i18n="forum.general" data-i18n-page="community">General Discussion</h4>
+              <p class="text-muted">Talk about anything Dota2 related</p>
+              <div style="margin-top: var(--spacing-sm); display: flex; gap: var(--spacing-md);">
+                <span class="text-muted" style="font-size: 0.875rem;">📊 2.5k topics</span>
+                <span class="text-muted" style="font-size: 0.875rem;">💬 15k posts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Guides & Tutorials -->
+        <div class="card-glow card reveal animate-delay-150">
+          <div class="flex items-start gap-md">
+            <div class="badge badge-success" style="font-size: 1.5rem;">📚</div>
+            <div>
+              <h4 class="card-title" data-i18n="forum.guides" data-i18n-page="community">Guides & Tutorials</h4>
+              <p class="text-muted">Share and find helpful guides</p>
+              <div style="margin-top: var(--spacing-sm); display: flex; gap: var(--spacing-md);">
+                <span class="text-muted" style="font-size: 0.875rem;">📊 850 topics</span>
+                <span class="text-muted" style="font-size: 0.875rem;">💬 4.2k posts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Media & Highlights -->
+        <div class="card-glow card reveal animate-delay-200">
+          <div class="flex items-start gap-md">
+            <div class="badge badge-warning" style="font-size: 1.5rem;">🎬</div>
+            <div>
+              <h4 class="card-title" data-i18n="forum.media" data-i18n-page="community">Media & Highlights</h4>
+              <p class="text-muted">Share your clips and videos</p>
+              <div style="margin-top: var(--spacing-sm); display: flex; gap: var(--spacing-md);">
+                <span class="text-muted" style="font-size: 0.875rem;">📊 1.2k topics</span>
+                <span class="text-muted" style="font-size: 0.875rem;">💬 6.8k posts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Memes & Culture -->
+        <div class="card-glow card reveal animate-delay-250">
+          <div class="flex items-start gap-md">
+            <div class="badge badge-secondary" style="font-size: 1.5rem;">😂</div>
+            <div>
+              <h4 class="card-title" data-i18n="forum.memes" data-i18n-page="community">Memes & Culture</h4>
+              <p class="text-muted">Dota2 memes and fun content</p>
+              <div style="margin-top: var(--spacing-sm); display: flex; gap: var(--spacing-md);">
+                <span class="text-muted" style="font-size: 0.875rem;">📊 3.1k topics</span>
+                <span class="text-muted" style="font-size: 0.875rem;">💬 22k posts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       UGC Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">User Generated Content</span>
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="ugc.title" data-i18n-page="community">Share Your Content</span>
+        </h2>
+      </div>
+
+      <!-- UGC Features -->
+      <div class="grid grid-cols-1 grid-cols-md-3 gap-lg">
+        <!-- Video Sharing -->
+        <div class="card reveal animate-delay-100">
+          <!-- 占位图片: 400x250 - 视频缩略图 -->
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect fill='%231f2937' width='400' height='250' rx='12'/%3E%3Ccircle cx='200' cy='125' r='40' fill='%238b5cf6' opacity='0.3'/%3E%3Cpolygon points='190,105 190,145 220,125' fill='white'/%3E%3C/svg%3E"
+               alt="Video Thumbnail"
+               style="width: 100%; border-radius: var(--radius-lg); margin-bottom: var(--spacing-md);">
+          <h4 style="margin-bottom: var(--spacing-sm);" data-i18n="ugc.sharing.title" data-i18n-page="community">Video Sharing</h4>
+          <p class="text-muted" data-i18n="ugc.sharing.description" data-i18n-page="community">
+            Upload videos, clips, and screenshots. Share your best moments and funny fails.
+          </p>
+        </div>
+
+        <!-- Coaching -->
+        <div class="card reveal animate-delay-200">
+          <!-- 占位图片: 400x250 - 教练/教程预览 -->
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect fill='%231f2937' width='400' height='250' rx='12'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%233b82f6' font-size='48' font-family='system-ui'%3E🎓%3C/text%3E%3C/svg%3E"
+               alt="Coaching"
+               style="width: 100%; border-radius: var(--radius-lg); margin-bottom: var(--spacing-md);">
+          <h4 style="margin-bottom: var(--spacing-sm);" data-i18n="ugc.mentoring.title" data-i18n-page="community">Coaching & Tutorials</h4>
+          <p class="text-muted" data-i18n="ugc.mentoring.description" data-i18n-page="community">
+            Learn from experienced coaches or become a coach yourself. Create and share premium content.
+          </p>
+        </div>
+
+        <!-- Creative Workshop -->
+        <div class="card reveal animate-delay-300">
+          <!-- 占位图片: 400x250 - 创意工坊预览 -->
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect fill='%231f2937' width='400' height='250' rx='12'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ec4899' font-size='48' font-family='system-ui'%3E🎨%3C/text%3E%3C/svg%3E"
+               alt="Creative Workshop"
+               style="width: 100%; border-radius: var(--radius-lg); margin-bottom: var(--spacing-md);">
+          <h4 style="margin-bottom: var(--spacing-sm);" data-i18n="ugc.workshop.title" data-i18n-page="community">Creative Workshop</h4>
+          <p class="text-muted" data-i18n="ugc.workshop.description" data-i18n-page="community">
+            Share your custom creations, artwork, and Dota2 wallpapers
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Featured Coaches Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="coaches.title" data-i18n-page="community">Featured Coaches</span>
+        </h2>
+        <p class="section-subtitle" data-i18n="coaches.description" data-i18n-page="community">
+          Learn from the best players in the community
+        </p>
+      </div>
+
+      <!-- Coach Cards -->
+      <div class="grid grid-cols-1 grid-cols-md-2 grid-cols-lg-4 gap-md">
+        <!-- Coach 1 -->
+        <div class="card text-center reveal animate-delay-100">
+          <!-- 占位头像: 100x100 -->
+          <div style="width: 80px; height: 80px; margin: 0 auto var(--spacing-md); background: var(--gradient-primary); border-radius: var(--radius-full);"></div>
+          <h5 style="margin-bottom: var(--spacing-xs);">ProCarry123</h5>
+          <p class="text-muted" style="font-size: 0.875rem; margin-bottom: var(--spacing-sm);">Pos 1 Specialist</p>
+          <div class="flex justify-center gap-sm" style="margin-bottom: var(--spacing-sm);">
+            <span class="badge badge-success">Videos</span>
+            <span class="badge badge-primary">Guides</span>
+          </div>
+          <button class="btn btn-secondary btn-sm">View Profile</button>
+        </div>
+
+        <!-- Coach 2 -->
+        <div class="card text-center reveal animate-delay-150">
+          <div style="width: 80px; height: 80px; margin: 0 auto var(--spacing-md); background: var(--gradient-secondary); border-radius: var(--radius-full);"></div>
+          <h5 style="margin-bottom: var(--spacing-xs);">SupportGod</h5>
+          <p class="text-muted" style="font-size: 0.875rem; margin-bottom: var(--spacing-sm);">Pos 5 Immortal</p>
+          <div class="flex justify-center gap-sm" style="margin-bottom: var(--spacing-sm);">
+            <span class="badge badge-success">Videos</span>
+            <span class="badge badge-warning">Premium</span>
+          </div>
+          <button class="btn btn-secondary btn-sm">View Profile</button>
+        </div>
+
+        <!-- Coach 3 -->
+        <div class="card text-center reveal animate-delay-200">
+          <div style="width: 80px; height: 80px; margin: 0 auto var(--spacing-md); background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%); border-radius: var(--radius-full);"></div>
+          <h5 style="margin-bottom: var(--spacing-xs);">MidMaster</h5>
+          <p class="text-content: 0.875rem; margin-bottom: var(--spacing-sm);">Pos 2 Coach</p>
+          <div class="flex justify-center gap-sm" style="margin-bottom: var(--spacing-sm);">
+            <span class="badge badge-primary">Guides</span>
+            <span class="badge badge-secondary">Articles</span>
+          </div>
+          <button class="btn btn-secondary btn-sm">View Profile</button>
+        </div>
+
+        <!-- Coach 4 -->
+        <div class="card text-center reveal animate-delay-250">
+          <div style="width: 80px; height: 80px; margin: 0 auto var(--spacing-md); background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%); border-radius: var(--radius-full);"></div>
+          <h5 style="margin-bottom: var(--spacing-xs);">OfflaneKing</h5>
+          <p class="text-muted" style="font-size: 0.875rem; margin-bottom: var(--spacing-sm);">Pos 3 Expert</p>
+          <div class="flex justify-center gap-sm" style="margin-bottom: var(--spacing-sm);">
+            <span class="badge badge-success">Videos</span>
+            <span class="badge badge-warning">Premium</span>
+          </div>
+          <button class="btn btn-secondary btn-sm">View Profile</button>
+        </div>
+      </div>
+
+      <!-- Become a Coach CTA -->
+      <div class="text-center reveal" style="margin-top: var(--spacing-xl);">
+        <p class="text-muted" style="margin-bottom: var(--spacing-md);">Are you a high-level player? Become a coach and earn from your expertise.</p>
+        <a href="#" class="btn btn-primary">Apply as Coach</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Gamification Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">🎮 Gamification</span>
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="engagement.title" data-i18n-page="community">Earn While You Learn</span>
+        </h2>
+      </div>
+
+      <!-- Gamification Features -->
+      <div class="grid grid-cols-1 grid-cols-md-2 gap-lg">
+        <!-- Daily Check-in -->
+        <div class="card-glow card reveal animate-delay-100">
+          <div class="flex items-start gap-md">
+            <div style="font-size: 2.5rem;">📅</div>
+            <div>
+              <h4 class="card-title" data-i18n="engagement.daily.title" data-i18n-page="community">Daily Check-ins</h4>
+              <p class="text-muted" data-i18n="engagement.daily.description" data-i18n-page="community">
+                Earn points by checking in daily. Streak bonuses for consecutive days!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trivia -->
+        <div class="card-glow card reveal animate-delay-150">
+          <div class="flex items-start gap-md">
+            <div style="font-size: 2.5rem;">🧠</div>
+            <div>
+              <h4 class="card-title" data-i18n="engagement.quiz.title" data-i18n-page="community">Trivia Quizzes</h4>
+              <p class="text-muted" data-i18n="engagement.quiz.description" data-i18n-page="community">
+                Test your Dota2 knowledge and win rewards. New questions daily!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Daily Tasks -->
+        <div class="card-glow card reveal animate-delay-200">
+          <div class="flex items-start gap-md">
+            <div style="font-size: 2.5rem;">✅</div>
+            <div>
+              <h4 class="card-title" data-i18n="engagement.tasks.title" data-i18n-page="community">Daily Tasks</h4>
+              <p class="text-muted" data-i18n="engagement.tasks.description" data-i18n-page="community">
+                Complete tasks to earn points and unlock premium features
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Match Prediction -->
+        <div class="card-glow card reveal animate-delay-250">
+          <div class="flex items-start gap-md">
+            <div style="font-size: 2.5rem;">🎯</div>
+            <div>
+              <h4 class="card-title" data-i18n="engagement.betting.title" data-i18n-page="community">Match Prediction</h4>
+              <p class="text-muted" data-i18n="engagement.betting.description" data-i18n-page="community">
+                Predict match outcomes and compete with friends. No real money involved!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Discord Integration
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="card-glow card" style="padding: var(--spacing-2xl);">
+        <div class="grid grid-cols-1 grid-cols-md-2 gap-xl items-center">
+          <div class="reveal">
+            <span class="section-tag">Integration</span>
+            <h3 style="margin: var(--spacing-md) 0;">Discord Integration</h3>
+            <p class="text-muted" style="margin-bottom: var(--spacing-lg);" data-i18n="discord.description" data-i18n-page="community">
+              Connect your account with Discord for real-time notifications and match reports. Get AI analysis delivered directly to your server!
+            </p>
+            <div class="flex flex-wrap gap-sm">
+              <span class="badge badge-primary">📊 Match Reports</span>
+              <span class="badge badge-success">🔔 Notifications</span>
+              <span class="badge badge-warning">🏆 Weekly Summaries</span>
+            </div>
+          </div>
+          <!-- 占位图片: 500x350 - Discord 机器人预览 -->
+          <div class="reveal animate-delay-200">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 350'%3E%3Crect fill='%23363393' width='500' height='350' rx='16'/%3E%3Ctext x='50%25' y='45%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='24' font-family='system-ui'%3EDiscord Bot Preview%3C/text%3E%3Crect fill='%235865F2' x='150' y='200' width='200' height='50' rx='25'/%3E%3Ctext x='50%25' y='75%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-family='system-ui'%3EAdd to Server%3C/text%3E%3C/svg%3E"
+                 alt="Discord Bot"
+                 style="width: 100%; border-radius: var(--radius-xl);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CTA Section
+       ============================================ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2 class="cta-title">
+          <span class="text-gradient">Join Our Community</span>
+        </h2>
+        <p class="cta-subtitle">
+          Connect with thousands of Dota2 players improving together
+        </p>
+        <div class="flex justify-center gap-md flex-wrap">
+          <a href="pricing.html" class="btn btn-primary btn-lg">
+            <span>Get Started Free</span>
+          </a>
+          <a href="#" class="btn btn-secondary btn-lg">
+            <span>Join Discord</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Daoyou. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

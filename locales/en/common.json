@@ -1,0 +1,45 @@
+{
+  "site": {
+    "title": "Daoyou - AI Coach for Dota2",
+    "tagline": "Your Dota2 Match Explained",
+    "description": "Auto-generated Dota2 Story & Insights"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "aigc": "AI Analysis",
+    "community": "Community",
+    "pricing": "Pricing",
+    "about": "About"
+  },
+  "hero": {
+    "title": "AI Coach for Dota2",
+    "subtitle": "Your Dota2 Match Explained",
+    "description": "Unlock your full potential with AI-powered match analysis, personalized coaching, and actionable insights.",
+    "cta": {
+      "primary": "Get Started Free",
+      "secondary": "Watch Demo"
+    }
+  },
+  "footer": {
+    "tagline": "Your Journey to Dota2 Mastery Starts Here",
+    "links": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "connect": "Connect"
+    },
+    "copyright": "© 2024 Daoyou. All rights reserved.",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "comingSoon": "Coming Soon",
+    "freeTrial": "7-Day Free Trial",
+    "subscribe": "Subscribe",
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

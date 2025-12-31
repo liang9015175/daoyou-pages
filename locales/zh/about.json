@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "关于道友",
+    "subtitle": "你的 Dota2 大师之旅从这里开始"
+  },
+  "mission": {
+    "title": "我们的使命",
+    "description": "我们相信每位 Dota2 玩家都应获得专业水平的分析和指导。道友致力于让游戏知识民主化，帮助各水平的玩家理解自己的游戏表现并更快进步。"
+  },
+  "story": {
+    "title": "我们的故事",
+    "description": "源于对 Dota2 和 AI 技术的热情，道友从简单的比赛分析器起步，发展为综合性的教练平台。我们将前沿 AI 与深度游戏理解相结合，提供曾经只有职业玩家才能享受的洞察。"
+  },
+  "values": {
+    "title": "我们的价值观",
+    "innovation": {
+      "title": "创新优先",
+      "description": "不断突破 AI 在游戏分析领域的边界"
+    },
+    "community": {
+      "title": "社区驱动",
+      "description": "由玩家构建，为玩家服务。你的反馈塑造我们的发展。"
+    },
+    "transparency": {
+      "title": "透明诚信",
+      "description": "定价清晰，沟通坦诚，没有任何隐藏议程"
+    }
+  },
+  "team": {
+    "title": "认识团队",
+    "description": "一支由 Dota2 玩家、AI 工程师和产品设计师组成的充满激情的团队"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "有问题或建议？我们很乐意倾听。",
+    "email": "邮箱",
+    "discord": "加入 Discord",
+    "twitter": "关注 Twitter"
+  }
+}

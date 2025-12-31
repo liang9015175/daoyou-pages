@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "AI Coach for Dota2",
+    "subtitle": "Your Dota2 Match Explained",
+    "description": "Get personalized AI analysis of every match. Understand why you won or lost, discover optimal builds, and climb the MMR ladder with data-driven insights.",
+    "cta1": "Start Free Trial",
+    "cta2": "Watch Demo"
+  },
+  "features": {
+    "title": "Everything You Need to Improve",
+    "subtitle": "Comprehensive tools designed specifically for Dota2 players who want to climb",
+    "matchAnalysis": {
+      "title": "Match Analysis",
+      "description": "Deep dive into every aspect of your matches with AI-powered insights"
+    },
+    "heroGuides": {
+      "title": "Hero Guides",
+      "description": "Learn from the best players with curated hero builds and strategies"
+    },
+    "realTimeTracking": {
+      "title": "Live Match Tracking",
+      "description": "Follow your friends' matches and get real-time notifications"
+    },
+    "community": {
+      "title": "Active Community",
+      "description": "Share replays, discuss strategies, and connect with fellow players"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Connect Steam",
+      "description": "Link your Steam account to start analyzing your matches"
+    },
+    "step2": {
+      "title": "AI Analysis",
+      "description": "Our AI analyzes your matches within minutes"
+    },
+    "step3": {
+      "title": "Get Insights",
+      "description": "Receive actionable feedback to improve your gameplay"
+    }
+  },
+  "testimonials": {
+    "title": "Trusted by Players Worldwide",
+    "subtitle": "Join thousands of players who have improved with Daoyou"
+  },
+  "cta": {
+    "title": "Ready to Climb the MMR Ladder?",
+    "subtitle": "Start your free 7-day trial today. No credit card required.",
+    "button": "Get Started Now"
+  }
+}

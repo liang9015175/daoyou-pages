@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "AI-Powered Match Analysis",
+    "subtitle": "Understand every match like a pro coach is sitting next to you"
+  },
+  "analysis": {
+    "title": "Deep Match Analysis",
+    "subtitle": "Our AI breaks down every aspect of your gameplay",
+    "winLoss": {
+      "title": "Win/Loss Analysis",
+      "description": "Understand the key factors that determined the outcome of your match"
+    },
+    "hypothetical": {
+      "title": "Hypothetical Scenarios",
+      "description": "Explore what-if scenarios to understand critical decision points"
+    },
+    "buildRecommendations": {
+      "title": "Build Recommendations",
+      "description": "Get optimized item and skill build suggestions based on patch data and pro player trends"
+    },
+    "positioning": {
+      "title": "Team Fight Positioning",
+      "description": "Analyze your positioning during key team fights and discover improvements"
+    },
+    "playstyle": {
+      "title": "Playstyle Analysis",
+      "description": "Understand if you lean towards farming, fighting, or playing conservatively"
+    },
+    "keyEvents": {
+      "title": "Key Events & Mistakes",
+      "description": "Identify critical mistakes and game-changing moments"
+    },
+    "vision": {
+      "title": "Vision Analysis",
+      "description": "Evaluate your ward placement and map awareness throughout the match"
+    },
+    "proComparison": {
+      "title": "Pro Player Comparison",
+      "description": "See how your decisions compare to professional players in similar situations"
+    },
+    "opponent": {
+      "title": "Opponent Analysis",
+      "description": "Understand your opponents' strategies and adapt accordingly"
+    }
+  },
+  "weekly": {
+    "title": "Weekly Performance Reports",
+    "description": "Get comprehensive weekly analysis of your gameplay progression"
+  },
+  "tarot": {
+    "title": "Daily Fortune Card",
+    "description": "Fun tarot-style fortune telling for your Dota2 journey"
+  },
+  "patch": {
+    "title": "Patch Impact Analysis",
+    "description": "See how patch changes affect your favorite heroes' win rates"
+  },
+  "tracking": {
+    "title": "Performance Tracking",
+    "description": "Track your improvement week over week with detailed metrics"
+  },
+  "hero": {
+    "title": "Per-Hero Analysis",
+    "description": "Get detailed analysis of your performance on each hero"
+  },
+  "topics": {
+    "title": "AI-Generated Daily Topics",
+    "description": "Automatic discussion topics and weekly highlights to spark community engagement"
+  },
+  "share": {
+    "title": "Share Anywhere",
+    "description": "Share your AI analysis reports to Discord, Reddit, and social media with beautiful auto-generated cards"
+  }
+}

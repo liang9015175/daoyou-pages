@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "AI 驱动的比赛分析",
+    "subtitle": "就像专业教练坐在你身边一样理解每场比赛"
+  },
+  "analysis": {
+    "title": "深度比赛分析",
+    "subtitle": "我们的 AI 会拆解你游戏操作的方方面面",
+    "winLoss": {
+      "title": "胜负原因分析",
+      "description": "了解决定比赛结果的关键因素"
+    },
+    "hypothetical": {
+      "title": "假设性分析",
+      "description": "探索「如果」场景，理解关键时刻的决策"
+    },
+    "buildRecommendations": {
+      "title": "出装建议分析",
+      "description": "基于版本数据和职业选手趋势，获取优化的装备和技能加点建议"
+    },
+    "positioning": {
+      "title": "团战站位分析",
+      "description": "分析你在关键团战中的站位，发现改进空间"
+    },
+    "playstyle": {
+      "title": "打法风格分析",
+      "description": "了解你是偏向发育、团战还是保守打法"
+    },
+    "keyEvents": {
+      "title": "关键事件与失误分析",
+      "description": "识别关键失误和改变比赛走向的时刻"
+    },
+    "vision": {
+      "title": "视野分析",
+      "description": "评估全过程的眼位布置和地图意识"
+    },
+    "proComparison": {
+      "title": "高手对比分析",
+      "description": "看看你的决策与职业选手在类似情况下的选择有何不同"
+    },
+    "opponent": {
+      "title": "对手表现分析",
+      "description": "了解对手的策略，相应调整你的打法"
+    }
+  },
+  "weekly": {
+    "title": "每周战报",
+    "description": "获取游戏进展的每周综合分析"
+  },
+  "tarot": {
+    "title": "塔罗牌运势分析",
+    "description": "有趣的塔罗风格运势预测，为你的 Dota2 之旅增添乐趣"
+  },
+  "patch": {
+    "title": "版本影响分析",
+    "description": "查看版本变化如何影响你常用英雄的胜率"
+  },
+  "tracking": {
+    "title": "表现追踪",
+    "description": "通过详细指标追踪你每周的提升"
+  },
+  "hero": {
+    "title": "单英雄表现分析",
+    "description": "获取每个英雄上的详细表现分析"
+  },
+  "topics": {
+    "title": "AI 生成每日话题",
+    "description": "自动生成讨论话题和本周精彩集锦，激发社区讨论"
+  },
+  "share": {
+    "title": "一键分享",
+    "description": "将精美的 AI 分析报告分享到 Discord、Reddit 和社交媒体"
+  }
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover all features of Daoyou - Match analysis, hero guides, live tracking, and more.">
+  <title>Features - Daoyou - AI Coach for Dota2</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+  <!-- ============================================
+       Header / Navigation
+       ============================================ -->
+  <header class="header">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <span data-i18n="site.title" data-i18n-page="common">Daoyou</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav">
+        <a href="../index.html" class="nav-link" data-i18n="nav.home" data-i18n-page="common">Home</a>
+        <a href="features.html" class="nav-link active" data-i18n="nav.features" data-i18n-page="common">Features</a>
+        <a href="aigc.html" class="nav-link" data-i18n="nav.aigc" data-i18n-page="common">AI Analysis</a>
+        <a href="community.html" class="nav-link" data-i18n="nav.community" data-i18n-page="common">Community</a>
+        <a href="pricing.html" class="nav-link" data-i18n="nav.pricing" data-i18n-page="common">Pricing</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about" data-i18n-page="common">About</a>
+      </nav>
+
+      <!-- Right Side Actions -->
+      <div class="flex items-center gap-sm">
+        <!-- Language Switcher -->
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="zh">中文</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="../index.html" class="nav-link" data-i18n="nav.home" data-i18n-page="common">Home</a>
+    <a href="features.html" class="nav-link" data-i18n="nav.features" data-i18n-page="common">Features</a>
+    <a href="aigc.html" class="nav-link" data-i18n="nav.aigc" data-i18n-page="common">AI Analysis</a>
+    <a href="community.html" class="nav-link" data-i18n="nav.community" data-i18n-page="common">Community</a>
+    <a href="pricing.html" class="nav-link" data-i18n="nav.pricing" data-i18n-page="common">Pricing</a>
+    <a href="about.html" class="nav-link" data-i18n="nav.about" data-i18n-page="common">About</a>
+  </div>
+
+  <!-- ============================================
+       Page Header
+       ============================================ -->
+  <section class="section" style="padding-top: 140px; padding-bottom: var(--spacing-2xl);">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag reveal">Features</span>
+        <h1 class="reveal animate-delay-100">
+          <span class="text-gradient" data-i18n="hero.title" data-i18n-page="features">Powerful Features for Dota2 Players</span>
+        </h1>
+        <p class="section-subtitle reveal animate-delay-200" data-i18n="hero.subtitle" data-i18n-page="features">
+          Everything you need to analyze, improve, and dominate your matches
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Core Features Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="core.title" data-i18n-page="features">Core Features</span>
+        </h2>
+      </div>
+
+      <!-- Core Features Grid -->
+      <div class="features-grid">
+        <!-- Match Statistics -->
+        <div class="feature-card reveal animate-delay-100">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 20V10"/>
+              <path d="M12 20V4"/>
+              <path d="M6 20v-6"/>
+            </svg>
+          </div>
+          <h3 class="feature-title" data-i18n="core.matchStats.title" data-i18n-page="features">Match Statistics</h3>
+          <p class="feature-description" data-i18n="core.matchStats.description" data-i18n-page="features">
+            Comprehensive match data with detailed event timelines, gold graphs, XP charts, and hero positioning throughout the game.
+          </p>
+          <!-- 占位图片: 800x400 - 数据统计界面预览 -->
+          <div style="margin-top: var(--spacing-md); border-radius: var(--radius-lg); overflow: hidden;">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%231f2937' width='800' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%238b5cf6' font-size='20' font-family='system-ui'%3EMatch Stats Preview (800x400)%3C/text%3E%3C/svg%3E"
+                 alt="Match Statistics Preview"
+                 style="width: 100%;">
+          </div>
+        </div>
+
+        <!-- Hero Database -->
+        <div class="feature-card reveal animate-delay-200">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="feature-title" data-i18n="core.heroDatabase.title" data-i18n-page="features">Hero Database</h3>
+          <p class="feature-description" data-i18n="core.heroDatabase.description" data-i18n-page="features">
+            Complete hero information including abilities, talents, counters, synergies, and optimal builds for every hero.
+          </p>
+          <!-- 占位图片: 800x400 - 英雄数据库预览 -->
+          <div style="margin-top: var(--spacing-md); border-radius: var(--radius-lg); overflow: hidden;">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%231f2937' width='800' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%233b82f6' font-size='20' font-family='system-ui'%3EHero Database Preview (800x400)%3C/text%3E%3C/svg%3E"
+                 alt="Hero Database Preview"
+                 style="width: 100%;">
+          </div>
+        </div>
+
+        <!-- Item Database -->
+        <div class="feature-card reveal animate-delay-300">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3 class="feature-title" data-i18n="core.itemDatabase.title" data-i18n-page="features">Item Database</h3>
+          <p class="feature-description" data-i18n="core.itemDatabase.description" data-i18n-page="features">
+            Detailed item information with build guides, upgrade paths, and situational recommendations.
+          </p>
+          <!-- 占位图片: 800x400 - 装备数据库预览 -->
+          <div style="margin-top: var(--spacing-md); border-radius: var(--radius-lg); overflow: hidden;">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%231f2937' width='800' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ec4899' font-size='20' font-family='system-ui'%3EItem Database Preview (800x400)%3C/text%3E%3C/svg%3E"
+                 alt="Item Database Preview"
+                 style="width: 100%;">
+          </div>
+        </div>
+
+        <!-- Player & Match Search -->
+        <div class="feature-card reveal animate-delay-400">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+          </div>
+          <h3 class="feature-title" data-i18n="core.playerSearch.title" data-i18n-page="features">Player & Match Search</h3>
+          <p class="feature-description" data-i18n="core.playerSearch.description" data-i18n-page="features">
+            Search any player or match ID to view detailed statistics, match history, and performance analysis.
+          </p>
+          <!-- 占位图片: 800x400 - 搜索功能预览 -->
+          <div style="margin-top: var(--spacing-md); border-radius: var(--radius-lg); overflow: hidden;">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%231f2937' width='800' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%2306b6d4' font-size='20' font-family='system-ui'%3ESearch Preview (800x400)%3C/text%3E%3C/svg%3E"
+                 alt="Search Preview"
+                 style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Advanced Features Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="advanced.title" data-i18n-page="features">Advanced Features</span>
+        </h2>
+      </div>
+
+      <!-- Advanced Features Grid -->
+      <div class="grid grid-cols-1 grid-cols-md-2 grid-cols-lg-3 gap-lg">
+        <!-- Friend System -->
+        <div class="card reveal animate-delay-100">
+          <div class="card-header">
+            <h4 class="card-title" data-i18n="advanced.friendSystem.title" data-i18n-page="features">Friend System</h4>
+            <p class="card-subtitle">Social</p>
+          </div>
+          <div class="card-body" data-i18n="advanced.friendSystem.description" data-i18n-page="features">
+            Follow friends, track their matches, and get notified when they start playing or complete games.
+          </div>
+          <div class="card-footer">
+            <span class="badge badge-success">Active</span>
+          </div>
+        </div>
+
+        <!-- Tournaments -->
+        <div class="card reveal animate-delay-200">
+          <div class="card-header">
+            <h4 class="card-title" data-i18n="advanced.tournaments.title" data-i18n-page="features">Tournament Events</h4>
+            <p class="card-subtitle">Esports</p>
+          </div>
+          <div class="card-body" data-i18n="advanced.tournaments.description" data-i18n-page="features">
+            Stay updated with ongoing tournaments, match schedules, and results with push notifications.
+          </div>
+          <div class="card-footer">
+            <span class="badge badge-primary">Coming Soon</span>
+          </div>
+        </div>
+
+        <!-- News -->
+        <div class="card reveal animate-delay-300">
+          <div class="card-header">
+            <h4 class="card-title" data-i18n="advanced.news.title" data-i18n-page="features">News & Discussions</h4>
+            <p class="card-subtitle">Content</p>
+          </div>
+          <div class="card-body" data-i18n="advanced.news.description" data-i18n-page="features">
+            Curated Dota2 news with community discussions, comments, and engagement metrics.
+          </div>
+          <div class="card-footer">
+            <span class="badge badge-primary">Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Insight Cards Feed Section
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Personalized</span>
+        <h2 class="section-title">
+          <span class="text-gradient" data-i18n="cards.title" data-i18n-page="features">Insight Cards Feed</span>
+        </h2>
+        <p class="section-subtitle" data-i18n="cards.description" data-i18n-page="features">
+          Get personalized card-based recommendations delivered daily
+        </p>
+      </div>
+
+      <!-- Cards Preview Grid -->
+      <div class="grid grid-cols-1 grid-cols-sm-2 grid-cols-lg-3 gap-md">
+        <!-- Card Items -->
+        <div class="card reveal animate-delay-100" style="border-left: 3px solid #8b5cf6;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.personalCard" data-i18n-page="features">Personal Performance Card</h5>
+          </div>
+          <p class="text-muted">Your weekly performance summary</p>
+        </div>
+
+        <div class="card reveal animate-delay-150" style="border-left: 3px solid #3b82f6;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.heroHighlights" data-i18n-page="features">Hero Highlights</h5>
+          </div>
+          <p class="text-muted">Recent best & worst performances</p>
+        </div>
+
+        <div class="card reveal animate-delay-200" style="border-left: 3px solid #ec4899;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.aiAnalysis" data-i18n-page="features">AI Match Analysis</h5>
+          </div>
+          <p class="text-muted">Deep dive into your last 20 matches</p>
+        </div>
+
+        <div class="card reveal animate-delay-250" style="border-left: 3px solid #06b6d4;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.heroData" data-i18n-page="features">Hero Data Cards</h5>
+          </div>
+          <p class="text-muted">Stats for your most played heroes</p>
+        </div>
+
+        <div class="card reveal animate-delay-300" style="border-left: 3px solid #10b981;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.friendPerformance" data-i18n-page="features">Friend Performance</h5>
+          </div>
+          <p class="text-muted">Track your friends' progress</p>
+        </div>
+
+        <div class="card reveal animate-delay-350" style="border-left: 3px solid #f59e0b;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.proLeaderboard" data-i18n-page="features">Pro Leaderboard</h5>
+          </div>
+          <p class="text-muted">Top players by hero & position</p>
+        </div>
+
+        <div class="card reveal animate-delay-400" style="border-left: 3px solid #ef4444;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.news" data-i18n-page="features">News Cards</h5>
+          </div>
+          <p class="text-muted">Latest Dota2 updates & discussions</p>
+        </div>
+
+        <div class="card reveal animate-delay-450" style="border-left: 3px solid #a855f7;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.patchNotes" data-i18n-page="features">Patch Updates</h5>
+          </div>
+          <p class="text-muted">Version changes & impact analysis</p>
+        </div>
+
+        <div class="card reveal animate-delay-500" style="border-left: 3px solid #6366f1;">
+          <div class="card-header">
+            <h5 class="card-title" data-i18n="cards.tarot" data-i18n-page="features">Daily Fortune</h5>
+          </div>
+          <p class="text-muted">Fun tarot-style fortune telling</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CTA Section
+       ============================================ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2 class="cta-title">
+          <span class="text-gradient">Explore All Features</span>
+        </h2>
+        <p class="cta-subtitle">
+          Ready to take your Dota2 gameplay to the next level?
+        </p>
+        <div class="flex justify-center gap-md flex-wrap">
+          <a href="pricing.html" class="btn btn-primary btn-lg">
+            <span>Get Started Free</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="aigc.html" class="btn btn-secondary btn-lg">
+            <span>Learn About AI</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          © 2024 Daoyou. All rights reserved.
+        </p>
+        <div class="flex gap-md">
+          <a href="#" class="footer-link">Privacy</a>
+          <a href="#" class="footer-link">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

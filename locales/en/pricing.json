@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that fits your journey"
+  },
+  "plans": {
+    "free": {
+      "name": "Free",
+      "tagline": "Get started with essential features",
+      "price": "$0",
+      "period": "forever",
+      "features": [
+        "Basic match statistics",
+        "Hero & item database",
+        "Community forum access",
+        "Daily fortune card",
+        "5 AI analysis summaries per week (delayed)"
+      ],
+      "cta": "Get Started"
+    },
+    "monthly": {
+      "name": "Monthly",
+      "tagline": "Perfect for regular players",
+      "price": "$1",
+      "period": "per month",
+      "features": [
+        "Everything in Free",
+        "Instant AI analysis",
+        "Last 20 matches analyzed daily",
+        "Weekly performance reports",
+        "Hero specialization cards",
+        "Pro player comparisons",
+        "Ad-free experience"
+      ],
+      "cta": "Subscribe Monthly",
+      "popular": true
+    },
+    "yearly": {
+      "name": "Yearly",
+      "tagline": "Best value for dedicated players",
+      "price": "$10",
+      "period": "per year",
+      "savings": "Save 17%",
+      "features": [
+        "Everything in Monthly",
+        "Priority AI processing",
+        "Advanced vision analysis",
+        "Custom report templates",
+        "Exclusive tutorial access",
+        "Early access to new features",
+        "Priority support"
+      ],
+      "cta": "Subscribe Yearly",
+      "badge": "Best Value"
+    }
+  },
+  "coach": {
+    "title": "For Coaches",
+    "description": "Share your knowledge and earn",
+    "revenue": "70/30 revenue split in your favor",
+    "features": [
+      "Create premium tutorials",
+      "Set your own prices",
+      "Build your follower base",
+      "Analytics dashboard"
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept credit cards, PayPal, and various regional payment methods."
+    },
+    "q2": {
+      "question": "Can I cancel anytime?",
+      "answer": "Yes, you can cancel your subscription at any time. Your benefits continue until the end of the billing period."
+    },
+    "q3": {
+      "question": "Is there a free trial?",
+      "answer": "Yes! New users get a 7-day free trial of all premium features."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "title": "加入道友社区",
+    "subtitle": "与全球 Dota2 玩家建立联系、分享经验、共同学习"
+  },
+  "forum": {
+    "title": "社区论坛",
+    "description": "在多个板块参与讨论",
+    "general": "综合讨论",
+    "guides": "攻略与教程",
+    "media": "视频与集锦",
+    "memes": "玩梗文化"
+  },
+  "ugc": {
+    "title": "用户创作内容",
+    "sharing": {
+      "title": "分享你的内容",
+      "description": "上传视频、剪辑和截图。分享你的精彩时刻和搞笑翻车现场。"
+    },
+    "mentoring": {
+      "title": "教练与教程",
+      "description": "向经验丰富的教练学习，或者自己成为教练。创建和分享付费内容。"
+    },
+    "workshop": {
+      "title": "创意工坊",
+      "description": "分享你的自定义创作、艺术作品和 Dota2 壁纸"
+    }
+  },
+  "coaches": {
+    "title": "特邀教练",
+    "description": "向社区最优秀的玩家学习",
+    "tutorials": "视频教程",
+    "articles": "图文指南",
+    "premium": "付费内容",
+    "preview": "提供免费预览"
+  },
+  "engagement": {
+    "title": "趣味促活",
+    "daily": {
+      "title": "每日打卡",
+      "description": "通过每日打卡赚取积分"
+    },
+    "quiz": {
+      "title": "趣味知识问答",
+      "description": "测试你的 Dota2 知识，赢取奖励"
+    },
+    "tasks": {
+      "title": "每日任务",
+      "description": "完成任务赚取积分，解锁付费功能"
+    },
+    "betting": {
+      "title": "比赛竞猜",
+      "description": "预测比赛结果，与好友一较高下"
+    }
+  },
+  "discord": {
+    "title": "Discord 集成",
+    "description": "连接你的 Discord 账户，获取实时通知和比赛报告"
+  },
+  "social": {
+    "title": "社交分享",
+    "description": "将你的精彩集锦和分析卡片分享到 Reddit、Twitter 等平台"
+  }
+}
