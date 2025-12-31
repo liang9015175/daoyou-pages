@@ -62,17 +62,36 @@ const i18n = (function() {
 
     // 解析嵌套路径
     const keys = key.split('.');
-    let value = data[page] || data.common || {};
 
-    for (let i = 0; i < keys.length; i++) {
-      if (value && typeof value === 'object') {
-        value = value[keys[i]];
-      } else {
-        return key;
-      }
+    // 先从指定的页面中查找
+    let value = getNestedValue(data[page], keys);
+
+    // 如果在页面中找不到，从 common 中查找
+    if (value === undefined && data.common) {
+      value = getNestedValue(data.common, keys);
     }
 
-    return value || key;
+    return value !== undefined ? value : key;
+  }
+
+  /**
+   * 从嵌套对象中获取值
+   * @param {object} obj - 要查找的对象
+   * @param {array} keys - 键路径数组
+   * @returns {any|undefined}
+   */
+  function getNestedValue(obj, keys) {
+    if (!obj || typeof obj !== 'object') return undefined;
+
+    let value = obj;
+    for (let i = 0; i < keys.length; i++) {
+      if (value && typeof value === 'object' && keys[i] in value) {
+        value = value[keys[i]];
+      } else {
+        return undefined;
+      }
+    }
+    return value;
   }
 
   /**
