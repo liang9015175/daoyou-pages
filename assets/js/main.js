@@ -1,5 +1,5 @@
 /**
- * Daoyou - AI Coach for Dota2
+ * 刀友 - AI Coach for Dota2
  * Main JavaScript
  *
  * 功能模块:
@@ -708,7 +708,7 @@ const loadingScreen = (function() {
           <path d="M2 12l10 5 10-5"/>
         </svg>
       </div>
-      <div class="loading-text">Daoyou</div>
+      <div class="loading-text">刀友</div>
       <div class="loading-bar">
         <div class="loading-bar-progress"></div>
       </div>
@@ -898,7 +898,7 @@ const app = {
       document.body.classList.add('loaded');
     });
 
-    console.log('Daoyou App Initialized');
+    console.log('刀友 App Initialized');
   }
 };
 
