@@ -878,7 +878,7 @@ const app = {
    */
   start() {
     // 初始化各个模块
-    loadingScreen.init();  // 首先初始化加载屏幕
+    // loadingScreen.init();  // 已禁用加载屏幕
     i18n.init();
     particles.start();
     scrollReveal.init();
